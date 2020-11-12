@@ -6,15 +6,15 @@
     "scope": "oob"
   },
   "verifyAvailableLimit": {
-    "dsMensagem": "string",
-    "dsStatus": "string",
+    "dsMensagem": "Linha(s) encontrada(s)",
+    "dsStatus": "OK",
     "listaLinhaCredito": [
       {
-        "cdLinhaCredito": 0,
-        "nmLinhaCredito": "string",
-        "pzLimiteCredito": 0,
-        "tpLinhaCredito": "string",
-        "vrDisponivel": 0
+        "cdLinhaCredito": 1212209,
+        "nmLinhaCredito": "(G) Derivativos Estruturados",
+        "pzLimiteCredito": 180,
+        "tpLinhaCredito": "N",
+        "vrDisponivel": 38000000000.00
       }
     ]
   },
