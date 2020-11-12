@@ -1,13 +1,23 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
+  "token": {
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImRlZmF1bHRfc3NsX2tleSJ9.ew0KICAiaXNzIjogImh0dHBzOi8vYXBpLWRpZ2l0YWxkZXMuYmFuY292b3RvcmFudGltLmNvbS5iciIsDQogICJpYXQiOjE2MDMzOTEzMDgsDQogICJhdWQiOiI4MjIxNDYzMC1lOTAxLTRmOWYtODlkYy1iZjUzMTM5MDA0NDEiLA0KICAiZXhwIjoxNjAzMzk0OTA4LA0KICAianRpIjoiZTdlNGI4N2YtZWExOS00YWU2LTljYWEtOTI0MmVjOTE5YmI3IiwNCiAgInRva2VuX2RldGFpbHMiOiB7DQogICAgInNjb3BlIjoib29iIiwNCiAgICAiZXhwaXJlc19pbiI6MzYwMCwNCiAgICAidG9rZW5fdHlwZSI6IkJlYXJlciIsDQogICAgInVzZXJuYW1lIjoiIiwNCiAgICAicm9sZXMiOiIiLA0KICAgICJoYXNoQ3BmIjoiMUIyTTJZOEFzZ1RwZ0FtWTdQaENmZz09Ig0KICB9DQp9.s2cZXG-YT-pBjZTqBLW7ATHyG_N3K3nNmqIHpL0ZWn21NJbjhpowU9O7unZXHoQiK6x8jhIMbRSdHj2rpCVu52jnjeaqoAlcfCBPo2YiMMLWfr65G5gbwmhMbDuc4UMRfCUphIuXVO-7B6IzKtYj1neJ1ulEFSHNf16QAvpaBb9-KJvvNe6QB0pXHVGu-LOBkZEGqsBjZaQG2k3SeM12ioOslQ5AMxW6iwmikQ8nOy9oTqRhFTe3_oqzKziEA6Gfdx0Tq0V7HM4qM_Hz6rYQJDsoYGQ0vlhApDpH638H7Q_I1xpI2soFZdqj3FwHL4TqsZCUCSXactmOWp-NF-L75g",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "oob"
+  },
+  "verifyAvailableLimit": {
+    "dsMensagem": "string",
+    "dsStatus": "string",
+    "listaLinhaCredito": [
+      {
+        "cdLinhaCredito": 0,
+        "nmLinhaCredito": "string",
+        "pzLimiteCredito": 0,
+        "tpLinhaCredito": "string",
+        "vrDisponivel": 0
+      }
+    ]
+  },
   "profile": {
     "name": "typicode"
   }
